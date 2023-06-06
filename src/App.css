@@ -173,7 +173,10 @@ body {
 .profile-page .title {
     text-align: center;
     margin-top: 30px;
-    font-weight: 700;
+}
+
+.title {
+    font-weight: 700
 }
 
 .profile-page .category {
@@ -229,4 +232,28 @@ body {
 .cc-profile-image a:hover:before {
     -webkit-animation: none;
     animation: none;
+}
+
+/*About Section*/
+
+.section {
+    padding: 70px 0;
+    position: relative;
+    background: #FFFFFF;
+}
+
+.card {
+    border: 0;
+    border-radius: 0.1875rem;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card .card-body {
+    min-height: 190px;
 }
