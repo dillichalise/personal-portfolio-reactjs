@@ -5,6 +5,7 @@ import Footer from "./footer";
 import IntroPage from "./intro";
 import AboutComponent from "./about";
 import ExperienceComponent from "./experience";
+import EducationComponent from "./education";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <IntroPage />
       <AboutComponent />
       <ExperienceComponent />
+      <EducationComponent />
       <Footer />
     </div>
   );
