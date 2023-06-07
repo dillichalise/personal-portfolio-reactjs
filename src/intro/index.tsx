@@ -21,7 +21,7 @@ const IntroPage = () => {
             <div className="h2 title">Dilli Raj Chalise</div>
             <p className="category text-white">Web Developer</p>
             <a className="btn btn-primary mr-2" href="#contact">
-              Hire Me
+              Contact Me
             </a>
             <a
               className="btn btn-primary"
