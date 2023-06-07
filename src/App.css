@@ -1,13 +1,4 @@
-body {
-    color: #2c2c2c;
-    font-size: 14px;
-    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-}
-
 /* Navbar */
-
 .navbar .navbar-brand {
     text-transform: uppercase;
     font-size: 0.8571em;
@@ -223,7 +214,6 @@ body {
     transition: all .3s ease-out;
 }
 
-
 .cc-profile-image a:hover img {
     -webkit-transform: scale(1.06, 1.06);
     transform: scale(1.06, 1.06);
@@ -235,7 +225,6 @@ body {
 }
 
 /*About Section*/
-
 .section {
     padding: 70px 0;
     position: relative;
@@ -259,7 +248,6 @@ body {
 }
 
 /*Education*/
-
 .education-header {
     padding-top: 60px;
     padding-right: 0;
@@ -273,4 +261,35 @@ body {
     color: #9A9A9A;
     margin-top: 30px;
     margin-bottom: 20px;
+}
+
+/*Footer*/
+.footer {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.social-icons>a{
+    color: #888;
+    padding: 0.6rem;
+}
+
+.cc-twitter:hover i {
+    color: #1da1f2;
+}
+
+.cc-google-plus:hover i {
+    color: #dd4b39;
+}
+
+.cc-instagram:hover i {
+    color: #405de6;
+}
+
+.cc-linkedin:hover i {
+    color: #0072B1;
+}
+
+.cc-github:hover i {
+    color: #171515;
 }
